@@ -23,24 +23,22 @@ Options:
 #!/usr/bin/env python
 #coding:utf8
 
-import os, sys, string
-HOME_DIR = os.environ.get("PROPEXTRACTION_HOME_DIR", './')+"/"
-
-import run
+import os
+import string
 import json
-from props.webinterface import bottle
-from props.applications.viz_tree import DepTreeVisualizer
-from props.applications.run import load_berkeley
-import fileinput
-bottle.debug(True)
-import os.path
-import codecs
-from cStringIO import StringIO
-import sys,time,datetime
-from subprocess import call
-from docopt import docopt
-from props.applications.run import parseSentences
+
+import sys
 import logging
+
+from docopt import docopt
+from ..webinterface import bottle
+from .viz_tree import DepTreeVisualizer
+from .run import load_berkeley
+from .run import parseSentences
+
+HOME_DIR = os.environ.get("PROPEXTRACTION_HOME_DIR", './')+"/"
+bottle.debug(True)
+
 
 def main(arguments):
     if not(arguments["--corenlp-json-input"]):
@@ -67,7 +65,6 @@ def main(arguments):
     else:
         sents = [filter(lambda x: x in string.printable, s) for s in arguments["FILE"]] 
 
-    
     for sent in sents:
         gs = parseSentences(sent,
                             HOME_DIR,

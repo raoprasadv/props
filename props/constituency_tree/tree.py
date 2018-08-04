@@ -43,10 +43,8 @@ class LingTree:
          return t
       else:
          import sys
-         sys.stderr.write("%s\n" % sexpr.encode("utf8"))
-         sys.stderr.write( "Error!\n" )
-         raise Error
-      
+         raise Exception("%s\n" % sexpr.encode("utf8"))
+
    # return list represents the tree (Recursively), the first element is the node and the rest elements are node's childs
    def as_lists(self):
       return [self.get_name()] +[cl.as_lists() for cl in self.childs]

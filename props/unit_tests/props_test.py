@@ -1,6 +1,6 @@
 import unittest
-from props.applications.run import parseSentences
-from props.applications.run import load_berkeley
+from ..applications.run import parseSentences
+#from ..applications.run import load_berkeley
 from _jpype import shutdown
 import logging
 
@@ -11,7 +11,7 @@ class PropsTest(unittest.TestCase):
     def setUp(self):
         ''' takes care of the needed initializations '''
         logging.info("running tests")
-        load_berkeley(tokenize = True)
+        #load_berkeley(tokenize = True)
     
     
     def getProps(self, sent):

@@ -1,10 +1,10 @@
 from __future__ import division
-from proposition import Proposition
-from props.constituency_tree.definitions import *
-from props.dependency_tree.definitions import *
-from props.dependency_tree.tree import DepTree
-import props.dependency_tree
+
 import syntactic_item
+from .proposition import Proposition
+from ..constituency_tree.definitions import *
+from ..dependency_tree.definitions import *
+from ..dependency_tree.tree import DepTree
 
 PROPS = "Propositions"
 ORIG_SENTENCE = "Original Sentence"
