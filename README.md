@@ -43,6 +43,7 @@ Run 'python ./unit_tests/sanity_test.py'
 -  To deal with module imports
 -  To deal with 'dot'  -- imports seem to be problematic
 -  TODO: A driver program to  run props from within a debugger in order to deconstruct the code.
+-  pip install gets a very old version of pygraph. I am using pygraph from https://github.com/Shoobx/python-graph  but importing 'dot' is problematic. So I commented out the writeToDot functions for now.
 
 
 
