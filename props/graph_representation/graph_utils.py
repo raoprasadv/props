@@ -5,7 +5,7 @@ import subprocess, math, re, nltk
 from pygraph.algorithms.accessibility import accessibility
 from props.graph_representation.word import NO_INDEX, Word, strip_punctuations
 from pygraph.algorithms.traversal import traversal
-from pygraph.algorithms.minmax import minimal_spanning_tree, shortest_path
+from pygraph.algorithms.minmax import minimal_spanning_tree_prim as minimal_spanning_tree, shortest_path
 import cgi
 # from graph_representation.node import isRcmodProp
 import time

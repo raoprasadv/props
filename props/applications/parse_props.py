@@ -23,21 +23,21 @@ Options:
 #!/usr/bin/env python
 #coding:utf8
 
+import json
+import logging
 import os
 import string
-import json
-
 import sys
-import logging
 
 from docopt import docopt
-from ..webinterface import bottle
-from .viz_tree import DepTreeVisualizer
-from .run import load_berkeley
+
+#from .run import load_berkeley
 from .run import parseSentences
+# from ..webinterface import bottle
+from .viz_tree import DepTreeVisualizer
 
 HOME_DIR = os.environ.get("PROPEXTRACTION_HOME_DIR", './')+"/"
-bottle.debug(True)
+#bottle.debug(True)
 
 
 def main(arguments):
@@ -51,7 +51,8 @@ def main(arguments):
         outputType = 'pdf'
         sep = "\n"
         
-    graphical = (outputType=='html')
+    #graphical = (outputType=='html')
+    graphical = False
 
     # Parse according to source input
     if arguments["--corenlp-json-input"]:
@@ -70,7 +71,7 @@ def main(arguments):
                             HOME_DIR,
                             stanford_json_sent = arguments["--corenlp-json-input"])
         g,tree = gs[0]
-        dot = g.drawToFile("","svg")   
+        dot = g.drawToFile("","svg")
         
         # deptree to svg file
         d = DepTreeVisualizer.from_conll_str(tree)

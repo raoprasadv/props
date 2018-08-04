@@ -39,4 +39,11 @@ MacOS users might run into issues installing JPype. An instruction to manually i
 
 Run 'python ./unit_tests/sanity_test.py'
 
+# My Changes (for my consumption only)
+-  To deal with module imports
+-  To deal with 'dot'  -- imports seem to be problematic
+-  TODO: A driver program to  run props from within a debugger in order to deconstruct the code.
+
+
+
 

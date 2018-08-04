@@ -5,7 +5,7 @@ from copy import copy
 # from graph_representation.graph_wrapper import GraphWrapper
 import cgi,time
 import subprocess,math,re,os
-from pygraph.algorithms.minmax import shortest_path, minimal_spanning_tree
+from pygraph.algorithms.minmax import shortest_path
 from props.graph_representation.graph_utils import get_min_max_span, duplicateEdge,\
     find_edges
 from pygraph.algorithms.accessibility import accessibility

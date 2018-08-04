@@ -13,7 +13,7 @@ from props.dependency_tree.definitions import domain_label, copular_verbs, \
     FIRST_ENTITY_LABEL, SECOND_ENTITY_LABEL, arguments_dependencies, gerund_pos, \
     determiner_dependencies, determined_labels, SOURCE_LABEL, ARG_LABEL,\
     contractions
-import pygraph.readwrite.dot
+#import pygraph.readwrite.dot
 
 
 from itertools import product
@@ -275,15 +275,15 @@ class GraphWrapper(digraph):
         @param the type of file [png,jpg,...] - will be passed to dot 
         """
         
-        if not filename:
-            return self.writeToDot(filename="",
-                           writeLabel=False)
+        #if not filename:
+        #    return self.writeToDot(filename="",
+        #                   writeLabel=False)
             
         
-        ret = self.writeToDot(filename=filename + ".dot",
-                           writeLabel=(filetype == "svg"))
+        #ret = self.writeToDot(filename=filename + ".dot",
+        #                   writeLabel=(filetype == "svg"))
         
-        call("dot -T{1} {0}.dot -o {0}.{1}".format(filename, filetype).split())
+        #call("dot -T{1} {0}.dot -o {0}.{1}".format(filename, filetype).split())
         
     def is_aux_edge(self, (src, dst)):
         """
