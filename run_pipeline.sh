@@ -11,6 +11,8 @@
 #     This is indicated in stanford_parser.props
 #     (See https://github.com/stanfordnlp/CoreNLP/issues/415)
 set -e
+# temporary hack
+export CORENLP_HOME=/Users/prasad/packages/stanford-corenlp-full-2018-02-27
 # Run Stanford parser
 java -cp "$CORENLP_HOME/*" -Xmx2g edu.stanford.nlp.pipeline.StanfordCoreNLP \
     -annotators tokenize,ssplit,pos,parse \
