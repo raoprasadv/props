@@ -1,0 +1,2316 @@
+{
+  "docId": "turnipsInc.txt",
+  "sentences": [
+    {
+      "index": 0,
+      "line": 1,
+      "parse": "(ROOT\n  (S\n    (NP (PRP We))\n    (VP (VBP rate)\n      (NP\n        (NP\n          (NP (NNP Elbonia) (POS 's))\n          (JJ main) (NN company))\n        (NP\n          (NP (NNP Turnips) (NNP Inc.))\n          (NP (DT a) (JJ solid) (NN buy)))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rate"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 1,
+          "dependentGloss": "We"
+        },
+        {
+          "dep": "poss",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 3,
+          "dependentGloss": "Elbonia"
+        },
+        {
+          "dep": "possessive",
+          "governor": 3,
+          "governorGloss": "Elbonia",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 5,
+          "dependentGloss": "main"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 6,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "nn",
+          "governor": 8,
+          "governorGloss": "Inc.",
+          "dependent": 7,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 8,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "buy",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": "solid"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "Inc.",
+          "dependent": 11,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rate"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 1,
+          "dependentGloss": "We"
+        },
+        {
+          "dep": "poss",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 3,
+          "dependentGloss": "Elbonia"
+        },
+        {
+          "dep": "possessive",
+          "governor": 3,
+          "governorGloss": "Elbonia",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 5,
+          "dependentGloss": "main"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 6,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "iobj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 6,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "nn",
+          "governor": 8,
+          "governorGloss": "Inc.",
+          "dependent": 7,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 8,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "buy",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": "solid"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "Inc.",
+          "dependent": 11,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 2,
+          "dependentGloss": "rate"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 1,
+          "dependentGloss": "We"
+        },
+        {
+          "dep": "poss",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 3,
+          "dependentGloss": "Elbonia"
+        },
+        {
+          "dep": "possessive",
+          "governor": 3,
+          "governorGloss": "Elbonia",
+          "dependent": 4,
+          "dependentGloss": "'s"
+        },
+        {
+          "dep": "amod",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 5,
+          "dependentGloss": "main"
+        },
+        {
+          "dep": "dobj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 6,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "iobj",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 6,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "nn",
+          "governor": 8,
+          "governorGloss": "Inc.",
+          "dependent": 7,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "dep",
+          "governor": 6,
+          "governorGloss": "company",
+          "dependent": 8,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "det",
+          "governor": 11,
+          "governorGloss": "buy",
+          "dependent": 9,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "amod",
+          "governor": 11,
+          "governorGloss": "buy",
+          "dependent": 10,
+          "dependentGloss": "solid"
+        },
+        {
+          "dep": "dep",
+          "governor": 8,
+          "governorGloss": "Inc.",
+          "dependent": 11,
+          "dependentGloss": "buy"
+        },
+        {
+          "dep": "punct",
+          "governor": 2,
+          "governorGloss": "rate",
+          "dependent": 12,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "We",
+          "originalText": "We",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 2,
+          "pos": "PRP",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "rate",
+          "originalText": "rate",
+          "characterOffsetBegin": 3,
+          "characterOffsetEnd": 7,
+          "pos": "VBP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "Elbonia",
+          "originalText": "Elbonia",
+          "characterOffsetBegin": 8,
+          "characterOffsetEnd": 15,
+          "pos": "NNP",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 4,
+          "word": "'s",
+          "originalText": "'s",
+          "characterOffsetBegin": 15,
+          "characterOffsetEnd": 17,
+          "pos": "POS",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "main",
+          "originalText": "main",
+          "characterOffsetBegin": 18,
+          "characterOffsetEnd": 22,
+          "pos": "JJ",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "company",
+          "originalText": "company",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 30,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "Turnips",
+          "originalText": "Turnips",
+          "characterOffsetBegin": 31,
+          "characterOffsetEnd": 38,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "Inc.",
+          "originalText": "Inc.",
+          "characterOffsetBegin": 39,
+          "characterOffsetEnd": 43,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "a",
+          "originalText": "a",
+          "characterOffsetBegin": 44,
+          "characterOffsetEnd": 45,
+          "pos": "DT",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "solid",
+          "originalText": "solid",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 51,
+          "pos": "JJ",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "buy",
+          "originalText": "buy",
+          "characterOffsetBegin": 52,
+          "characterOffsetEnd": 55,
+          "pos": "NN",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 12,
+          "word": ".",
+          "originalText": ".",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 56,
+          "pos": ".",
+          "before": "",
+          "after": "\n"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "line": 2,
+      "parse": "(ROOT\n  (S\n    (NP (DT The) (JJ Elbonian) (NN economy))\n    (VP (VBZ has)\n      (VP (VBN been)\n        (PP (IN on)\n          (NP (DT the) (NN rise)))\n        (SBAR (IN since)\n          (S\n            (NP (NNP Wanald) (NNP Grumpf))\n            (VP (VBD came)\n              (PP (TO to)\n                (NP (NN power))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "been"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "economy",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "economy",
+          "dependent": 2,
+          "dependentGloss": "Elbonian"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 3,
+          "dependentGloss": "economy"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "prep",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "rise",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "pobj",
+          "governor": 6,
+          "governorGloss": "on",
+          "dependent": 8,
+          "dependentGloss": "rise"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 9,
+          "dependentGloss": "since"
+        },
+        {
+          "dep": "nn",
+          "governor": 11,
+          "governorGloss": "Grumpf",
+          "dependent": 10,
+          "dependentGloss": "Wanald"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 11,
+          "dependentGloss": "Grumpf"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 12,
+          "dependentGloss": "came"
+        },
+        {
+          "dep": "prep",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "pobj",
+          "governor": 13,
+          "governorGloss": "to",
+          "dependent": 14,
+          "dependentGloss": "power"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "been"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "economy",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "economy",
+          "dependent": 2,
+          "dependentGloss": "Elbonian"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 3,
+          "dependentGloss": "economy"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "prep",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "rise",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "pobj",
+          "governor": 6,
+          "governorGloss": "on",
+          "dependent": 8,
+          "dependentGloss": "rise"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 9,
+          "dependentGloss": "since"
+        },
+        {
+          "dep": "nn",
+          "governor": 11,
+          "governorGloss": "Grumpf",
+          "dependent": 10,
+          "dependentGloss": "Wanald"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 11,
+          "dependentGloss": "Grumpf"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 12,
+          "dependentGloss": "came"
+        },
+        {
+          "dep": "prep",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "pobj",
+          "governor": 13,
+          "governorGloss": "to",
+          "dependent": 14,
+          "dependentGloss": "power"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "been"
+        },
+        {
+          "dep": "det",
+          "governor": 3,
+          "governorGloss": "economy",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "amod",
+          "governor": 3,
+          "governorGloss": "economy",
+          "dependent": 2,
+          "dependentGloss": "Elbonian"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 3,
+          "dependentGloss": "economy"
+        },
+        {
+          "dep": "aux",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 4,
+          "dependentGloss": "has"
+        },
+        {
+          "dep": "prep",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 6,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "rise",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "pobj",
+          "governor": 6,
+          "governorGloss": "on",
+          "dependent": 8,
+          "dependentGloss": "rise"
+        },
+        {
+          "dep": "mark",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 9,
+          "dependentGloss": "since"
+        },
+        {
+          "dep": "nn",
+          "governor": 11,
+          "governorGloss": "Grumpf",
+          "dependent": 10,
+          "dependentGloss": "Wanald"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 11,
+          "dependentGloss": "Grumpf"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 12,
+          "dependentGloss": "came"
+        },
+        {
+          "dep": "prep",
+          "governor": 12,
+          "governorGloss": "came",
+          "dependent": 13,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "pobj",
+          "governor": 13,
+          "governorGloss": "to",
+          "dependent": 14,
+          "dependentGloss": "power"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "been",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "characterOffsetBegin": 57,
+          "characterOffsetEnd": 60,
+          "pos": "DT",
+          "before": "\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "Elbonian",
+          "originalText": "Elbonian",
+          "characterOffsetBegin": 61,
+          "characterOffsetEnd": 69,
+          "pos": "JJ",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "economy",
+          "originalText": "economy",
+          "characterOffsetBegin": 70,
+          "characterOffsetEnd": 77,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "has",
+          "originalText": "has",
+          "characterOffsetBegin": 78,
+          "characterOffsetEnd": 81,
+          "pos": "VBZ",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "been",
+          "originalText": "been",
+          "characterOffsetBegin": 82,
+          "characterOffsetEnd": 86,
+          "pos": "VBN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "on",
+          "originalText": "on",
+          "characterOffsetBegin": 87,
+          "characterOffsetEnd": 89,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "characterOffsetBegin": 90,
+          "characterOffsetEnd": 93,
+          "pos": "DT",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "rise",
+          "originalText": "rise",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 98,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "since",
+          "originalText": "since",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 104,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "Wanald",
+          "originalText": "Wanald",
+          "characterOffsetBegin": 105,
+          "characterOffsetEnd": 111,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Grumpf",
+          "originalText": "Grumpf",
+          "characterOffsetBegin": 112,
+          "characterOffsetEnd": 118,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "came",
+          "originalText": "came",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 123,
+          "pos": "VBD",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "to",
+          "originalText": "to",
+          "characterOffsetBegin": 124,
+          "characterOffsetEnd": 126,
+          "pos": "TO",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "power",
+          "originalText": "power",
+          "characterOffsetBegin": 127,
+          "characterOffsetEnd": 132,
+          "pos": "NN",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "characterOffsetBegin": 132,
+          "characterOffsetEnd": 133,
+          "pos": ".",
+          "before": "",
+          "after": "\n"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "line": 3,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT This) (NN upswing))\n      (PP (IN in)\n        (NP (NN economy))))\n    (VP (MD will)\n      (VP (VB result)\n        (PP (IN in)\n          (NP\n            (NP (VBN increased) (NN investment))\n            (PP (IN in)\n              (NP (NNP Turnips) (NNP Inc.)))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "upswing",
+          "dependent": 1,
+          "dependentGloss": "This"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 2,
+          "dependentGloss": "upswing"
+        },
+        {
+          "dep": "prep",
+          "governor": 2,
+          "governorGloss": "upswing",
+          "dependent": 3,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "pobj",
+          "governor": 3,
+          "governorGloss": "in",
+          "dependent": 4,
+          "dependentGloss": "economy"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 5,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "prep",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "investment",
+          "dependent": 8,
+          "dependentGloss": "increased"
+        },
+        {
+          "dep": "pobj",
+          "governor": 7,
+          "governorGloss": "in",
+          "dependent": 9,
+          "dependentGloss": "investment"
+        },
+        {
+          "dep": "prep",
+          "governor": 9,
+          "governorGloss": "investment",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nn",
+          "governor": 12,
+          "governorGloss": "Inc.",
+          "dependent": 11,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "pobj",
+          "governor": 10,
+          "governorGloss": "in",
+          "dependent": 12,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "upswing",
+          "dependent": 1,
+          "dependentGloss": "This"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 2,
+          "dependentGloss": "upswing"
+        },
+        {
+          "dep": "prep",
+          "governor": 2,
+          "governorGloss": "upswing",
+          "dependent": 3,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "pobj",
+          "governor": 3,
+          "governorGloss": "in",
+          "dependent": 4,
+          "dependentGloss": "economy"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 5,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "prep",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "investment",
+          "dependent": 8,
+          "dependentGloss": "increased"
+        },
+        {
+          "dep": "pobj",
+          "governor": 7,
+          "governorGloss": "in",
+          "dependent": 9,
+          "dependentGloss": "investment"
+        },
+        {
+          "dep": "prep",
+          "governor": 9,
+          "governorGloss": "investment",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nn",
+          "governor": 12,
+          "governorGloss": "Inc.",
+          "dependent": 11,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "pobj",
+          "governor": 10,
+          "governorGloss": "in",
+          "dependent": 12,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 6,
+          "dependentGloss": "result"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "upswing",
+          "dependent": 1,
+          "dependentGloss": "This"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 2,
+          "dependentGloss": "upswing"
+        },
+        {
+          "dep": "prep",
+          "governor": 2,
+          "governorGloss": "upswing",
+          "dependent": 3,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "pobj",
+          "governor": 3,
+          "governorGloss": "in",
+          "dependent": 4,
+          "dependentGloss": "economy"
+        },
+        {
+          "dep": "aux",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 5,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "prep",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 7,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "investment",
+          "dependent": 8,
+          "dependentGloss": "increased"
+        },
+        {
+          "dep": "pobj",
+          "governor": 7,
+          "governorGloss": "in",
+          "dependent": 9,
+          "dependentGloss": "investment"
+        },
+        {
+          "dep": "prep",
+          "governor": 9,
+          "governorGloss": "investment",
+          "dependent": 10,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nn",
+          "governor": 12,
+          "governorGloss": "Inc.",
+          "dependent": 11,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "pobj",
+          "governor": 10,
+          "governorGloss": "in",
+          "dependent": 12,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "punct",
+          "governor": 6,
+          "governorGloss": "result",
+          "dependent": 13,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "This",
+          "originalText": "This",
+          "characterOffsetBegin": 134,
+          "characterOffsetEnd": 138,
+          "pos": "DT",
+          "before": "\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "upswing",
+          "originalText": "upswing",
+          "characterOffsetBegin": 139,
+          "characterOffsetEnd": 146,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "in",
+          "originalText": "in",
+          "characterOffsetBegin": 147,
+          "characterOffsetEnd": 149,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "economy",
+          "originalText": "economy",
+          "characterOffsetBegin": 150,
+          "characterOffsetEnd": 157,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "will",
+          "originalText": "will",
+          "characterOffsetBegin": 158,
+          "characterOffsetEnd": 162,
+          "pos": "MD",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "result",
+          "originalText": "result",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 169,
+          "pos": "VB",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "in",
+          "originalText": "in",
+          "characterOffsetBegin": 170,
+          "characterOffsetEnd": 172,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "increased",
+          "originalText": "increased",
+          "characterOffsetBegin": 173,
+          "characterOffsetEnd": 182,
+          "pos": "VBN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "investment",
+          "originalText": "investment",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 193,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "in",
+          "originalText": "in",
+          "characterOffsetBegin": 194,
+          "characterOffsetEnd": 196,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Turnips",
+          "originalText": "Turnips",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 204,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Inc.",
+          "originalText": "Inc",
+          "characterOffsetBegin": 205,
+          "characterOffsetEnd": 208,
+          "pos": "NNP",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ".",
+          "originalText": ".",
+          "characterOffsetBegin": 208,
+          "characterOffsetEnd": 209,
+          "pos": ".",
+          "before": "",
+          "after": " \n"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "line": 4,
+      "parse": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN end))\n      (PP (IN of)\n        (NP (NN potato) (NN farming))))\n    (VP (MD will)\n      (VP (VB release)\n        (NP (JJR more) (NN land))\n        (PP (IN for)\n          (NP (NN use)))\n        (PP (IN by)\n          (NP (NNPS Turnips) (NNP Inc.)))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "release"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "end",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 2,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "prep",
+          "governor": 2,
+          "governorGloss": "end",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nn",
+          "governor": 5,
+          "governorGloss": "farming",
+          "dependent": 4,
+          "dependentGloss": "potato"
+        },
+        {
+          "dep": "pobj",
+          "governor": 3,
+          "governorGloss": "of",
+          "dependent": 5,
+          "dependentGloss": "farming"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 6,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "land",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 9,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "prep",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "pobj",
+          "governor": 10,
+          "governorGloss": "for",
+          "dependent": 11,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "prep",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 12,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nn",
+          "governor": 14,
+          "governorGloss": "Inc.",
+          "dependent": 13,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "pobj",
+          "governor": 12,
+          "governorGloss": "by",
+          "dependent": 14,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "release"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "end",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 2,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "prep",
+          "governor": 2,
+          "governorGloss": "end",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nn",
+          "governor": 5,
+          "governorGloss": "farming",
+          "dependent": 4,
+          "dependentGloss": "potato"
+        },
+        {
+          "dep": "pobj",
+          "governor": 3,
+          "governorGloss": "of",
+          "dependent": 5,
+          "dependentGloss": "farming"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 6,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "land",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 9,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "prep",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "pobj",
+          "governor": 10,
+          "governorGloss": "for",
+          "dependent": 11,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "prep",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 12,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nn",
+          "governor": 14,
+          "governorGloss": "Inc.",
+          "dependent": 13,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "pobj",
+          "governor": 12,
+          "governorGloss": "by",
+          "dependent": 14,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 7,
+          "dependentGloss": "release"
+        },
+        {
+          "dep": "det",
+          "governor": 2,
+          "governorGloss": "end",
+          "dependent": 1,
+          "dependentGloss": "The"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 2,
+          "dependentGloss": "end"
+        },
+        {
+          "dep": "prep",
+          "governor": 2,
+          "governorGloss": "end",
+          "dependent": 3,
+          "dependentGloss": "of"
+        },
+        {
+          "dep": "nn",
+          "governor": 5,
+          "governorGloss": "farming",
+          "dependent": 4,
+          "dependentGloss": "potato"
+        },
+        {
+          "dep": "pobj",
+          "governor": 3,
+          "governorGloss": "of",
+          "dependent": 5,
+          "dependentGloss": "farming"
+        },
+        {
+          "dep": "aux",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 6,
+          "dependentGloss": "will"
+        },
+        {
+          "dep": "amod",
+          "governor": 9,
+          "governorGloss": "land",
+          "dependent": 8,
+          "dependentGloss": "more"
+        },
+        {
+          "dep": "dobj",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 9,
+          "dependentGloss": "land"
+        },
+        {
+          "dep": "prep",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 10,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "pobj",
+          "governor": 10,
+          "governorGloss": "for",
+          "dependent": 11,
+          "dependentGloss": "use"
+        },
+        {
+          "dep": "prep",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 12,
+          "dependentGloss": "by"
+        },
+        {
+          "dep": "nn",
+          "governor": 14,
+          "governorGloss": "Inc.",
+          "dependent": 13,
+          "dependentGloss": "Turnips"
+        },
+        {
+          "dep": "pobj",
+          "governor": 12,
+          "governorGloss": "by",
+          "dependent": 14,
+          "dependentGloss": "Inc."
+        },
+        {
+          "dep": "punct",
+          "governor": 7,
+          "governorGloss": "release",
+          "dependent": 15,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "The",
+          "originalText": "The",
+          "characterOffsetBegin": 211,
+          "characterOffsetEnd": 214,
+          "pos": "DT",
+          "before": "\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "end",
+          "originalText": "end",
+          "characterOffsetBegin": 215,
+          "characterOffsetEnd": 218,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "of",
+          "originalText": "of",
+          "characterOffsetBegin": 219,
+          "characterOffsetEnd": 221,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "potato",
+          "originalText": "potato",
+          "characterOffsetBegin": 222,
+          "characterOffsetEnd": 228,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "farming",
+          "originalText": "farming",
+          "characterOffsetBegin": 229,
+          "characterOffsetEnd": 236,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "will",
+          "originalText": "will",
+          "characterOffsetBegin": 237,
+          "characterOffsetEnd": 241,
+          "pos": "MD",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "release",
+          "originalText": "release",
+          "characterOffsetBegin": 242,
+          "characterOffsetEnd": 249,
+          "pos": "VB",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "more",
+          "originalText": "more",
+          "characterOffsetBegin": 250,
+          "characterOffsetEnd": 254,
+          "pos": "JJR",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "land",
+          "originalText": "land",
+          "characterOffsetBegin": 255,
+          "characterOffsetEnd": 259,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "for",
+          "originalText": "for",
+          "characterOffsetBegin": 260,
+          "characterOffsetEnd": 263,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "use",
+          "originalText": "use",
+          "characterOffsetBegin": 264,
+          "characterOffsetEnd": 267,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "by",
+          "originalText": "by",
+          "characterOffsetBegin": 268,
+          "characterOffsetEnd": 270,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "Turnips",
+          "originalText": "Turnips",
+          "characterOffsetBegin": 271,
+          "characterOffsetEnd": 278,
+          "pos": "NNPS",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "Inc.",
+          "originalText": "Inc",
+          "characterOffsetBegin": 279,
+          "characterOffsetEnd": 282,
+          "pos": "NNP",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 15,
+          "word": ".",
+          "originalText": ".",
+          "characterOffsetBegin": 282,
+          "characterOffsetEnd": 283,
+          "pos": ".",
+          "before": "",
+          "after": "\n"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "line": 5,
+      "parse": "(ROOT\n  (S\n    (NP\n      (ADVP (RBR More)\n        (NP (NN production))))\n    (VP (VBZ is)\n      (VP (VBN expected)\n        (ADJP (JJ due)\n          (PP (TO to)\n            (NP (NNS synergies))))\n        (PP (IN with)\n          (NP\n            (NP (NNP Ham)\n              (CC &)\n              (NNP Bacon) (NNP Inc))\n            (, ,)\n            (NP (DT a) (NN sister) (NN company))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "expected"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 1,
+          "dependentGloss": "More"
+        },
+        {
+          "dep": "pobj",
+          "governor": 1,
+          "governorGloss": "More",
+          "dependent": 2,
+          "dependentGloss": "production"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "acomp",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 5,
+          "dependentGloss": "due"
+        },
+        {
+          "dep": "prep",
+          "governor": 5,
+          "governorGloss": "due",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "pobj",
+          "governor": 6,
+          "governorGloss": "to",
+          "dependent": 7,
+          "dependentGloss": "synergies"
+        },
+        {
+          "dep": "prep",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nn",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 9,
+          "dependentGloss": "Ham"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "Ham",
+          "dependent": 10,
+          "dependentGloss": "&"
+        },
+        {
+          "dep": "conj",
+          "governor": 9,
+          "governorGloss": "Ham",
+          "dependent": 11,
+          "dependentGloss": "Bacon"
+        },
+        {
+          "dep": "pobj",
+          "governor": 8,
+          "governorGloss": "with",
+          "dependent": 12,
+          "dependentGloss": "Inc"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "company",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nn",
+          "governor": 16,
+          "governorGloss": "company",
+          "dependent": 15,
+          "dependentGloss": "sister"
+        },
+        {
+          "dep": "appos",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 16,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "expected"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 1,
+          "dependentGloss": "More"
+        },
+        {
+          "dep": "pobj",
+          "governor": 1,
+          "governorGloss": "More",
+          "dependent": 2,
+          "dependentGloss": "production"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "acomp",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 5,
+          "dependentGloss": "due"
+        },
+        {
+          "dep": "prep",
+          "governor": 5,
+          "governorGloss": "due",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "pobj",
+          "governor": 6,
+          "governorGloss": "to",
+          "dependent": 7,
+          "dependentGloss": "synergies"
+        },
+        {
+          "dep": "prep",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nn",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 9,
+          "dependentGloss": "Ham"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "Ham",
+          "dependent": 10,
+          "dependentGloss": "&"
+        },
+        {
+          "dep": "conj",
+          "governor": 9,
+          "governorGloss": "Ham",
+          "dependent": 11,
+          "dependentGloss": "Bacon"
+        },
+        {
+          "dep": "pobj",
+          "governor": 8,
+          "governorGloss": "with",
+          "dependent": 12,
+          "dependentGloss": "Inc"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "company",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nn",
+          "governor": 16,
+          "governorGloss": "company",
+          "dependent": 15,
+          "dependentGloss": "sister"
+        },
+        {
+          "dep": "appos",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 16,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "expected"
+        },
+        {
+          "dep": "nsubjpass",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 1,
+          "dependentGloss": "More"
+        },
+        {
+          "dep": "pobj",
+          "governor": 1,
+          "governorGloss": "More",
+          "dependent": 2,
+          "dependentGloss": "production"
+        },
+        {
+          "dep": "auxpass",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 3,
+          "dependentGloss": "is"
+        },
+        {
+          "dep": "acomp",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 5,
+          "dependentGloss": "due"
+        },
+        {
+          "dep": "prep",
+          "governor": 5,
+          "governorGloss": "due",
+          "dependent": 6,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "pobj",
+          "governor": 6,
+          "governorGloss": "to",
+          "dependent": 7,
+          "dependentGloss": "synergies"
+        },
+        {
+          "dep": "prep",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 8,
+          "dependentGloss": "with"
+        },
+        {
+          "dep": "nn",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 9,
+          "dependentGloss": "Ham"
+        },
+        {
+          "dep": "cc",
+          "governor": 9,
+          "governorGloss": "Ham",
+          "dependent": 10,
+          "dependentGloss": "&"
+        },
+        {
+          "dep": "conj",
+          "governor": 9,
+          "governorGloss": "Ham",
+          "dependent": 11,
+          "dependentGloss": "Bacon"
+        },
+        {
+          "dep": "pobj",
+          "governor": 8,
+          "governorGloss": "with",
+          "dependent": 12,
+          "dependentGloss": "Inc"
+        },
+        {
+          "dep": "punct",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 13,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "det",
+          "governor": 16,
+          "governorGloss": "company",
+          "dependent": 14,
+          "dependentGloss": "a"
+        },
+        {
+          "dep": "nn",
+          "governor": 16,
+          "governorGloss": "company",
+          "dependent": 15,
+          "dependentGloss": "sister"
+        },
+        {
+          "dep": "appos",
+          "governor": 12,
+          "governorGloss": "Inc",
+          "dependent": 16,
+          "dependentGloss": "company"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "expected",
+          "dependent": 17,
+          "dependentGloss": "."
+        }
+      ],
+      "tokens": [
+        {
+          "index": 1,
+          "word": "More",
+          "originalText": "More",
+          "characterOffsetBegin": 284,
+          "characterOffsetEnd": 288,
+          "pos": "RBR",
+          "before": "\n",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "production",
+          "originalText": "production",
+          "characterOffsetBegin": 289,
+          "characterOffsetEnd": 299,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "is",
+          "originalText": "is",
+          "characterOffsetBegin": 300,
+          "characterOffsetEnd": 302,
+          "pos": "VBZ",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "expected",
+          "originalText": "expected",
+          "characterOffsetBegin": 303,
+          "characterOffsetEnd": 311,
+          "pos": "VBN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "due",
+          "originalText": "due",
+          "characterOffsetBegin": 312,
+          "characterOffsetEnd": 315,
+          "pos": "JJ",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "to",
+          "originalText": "to",
+          "characterOffsetBegin": 316,
+          "characterOffsetEnd": 318,
+          "pos": "TO",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "synergies",
+          "originalText": "synergies",
+          "characterOffsetBegin": 319,
+          "characterOffsetEnd": 328,
+          "pos": "NNS",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "with",
+          "originalText": "with",
+          "characterOffsetBegin": 329,
+          "characterOffsetEnd": 333,
+          "pos": "IN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "Ham",
+          "originalText": "Ham",
+          "characterOffsetBegin": 334,
+          "characterOffsetEnd": 337,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "&",
+          "originalText": "&",
+          "characterOffsetBegin": 338,
+          "characterOffsetEnd": 339,
+          "pos": "CC",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "Bacon",
+          "originalText": "Bacon",
+          "characterOffsetBegin": 340,
+          "characterOffsetEnd": 345,
+          "pos": "NNP",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "Inc",
+          "originalText": "Inc",
+          "characterOffsetBegin": 346,
+          "characterOffsetEnd": 349,
+          "pos": "NNP",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 13,
+          "word": ",",
+          "originalText": ",",
+          "characterOffsetBegin": 349,
+          "characterOffsetEnd": 350,
+          "pos": ",",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "a",
+          "originalText": "a",
+          "characterOffsetBegin": 351,
+          "characterOffsetEnd": 352,
+          "pos": "DT",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "sister",
+          "originalText": "sister",
+          "characterOffsetBegin": 353,
+          "characterOffsetEnd": 359,
+          "pos": "NN",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "company",
+          "originalText": "company",
+          "characterOffsetBegin": 360,
+          "characterOffsetEnd": 367,
+          "pos": "NN",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 17,
+          "word": ".",
+          "originalText": ".",
+          "characterOffsetBegin": 367,
+          "characterOffsetEnd": 368,
+          "pos": ".",
+          "before": "",
+          "after": "\n"
+        }
+      ]
+    }
+  ]
+}
